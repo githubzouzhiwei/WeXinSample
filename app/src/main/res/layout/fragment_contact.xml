@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EBEBEB">
+
+    <ListView
+        android:id="@+id/fragment_contact_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:scrollbars="none" />
+
+    <TextView
+        android:id="@+id/fragment_contact_tvTip"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_centerInParent="true"
+        android:background="#5000"
+        android:gravity="center"
+        android:text="A"
+        android:textColor="#fff"
+        android:textSize="32sp"
+        android:visibility="gone" />
+
+    <com.zzw.wexinsample.ui.widget.LetterBar
+        android:id="@+id/fragment_contact_lb"
+        android:layout_width="24dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true" />
+
+</RelativeLayout>

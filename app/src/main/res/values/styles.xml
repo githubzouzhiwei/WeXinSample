@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!-- 微信按钮 -->
+    <style name="WeiXinButton">
+        <item name="android:textColor">@drawable/text_color_selector</item>
+        <item name="android:drawableTop">@drawable/ic_weixin_selector</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <!-- 通讯录按钮 -->
+    <style name="ContactButton">
+        <item name="android:textColor">@drawable/text_color_selector</item>
+        <item name="android:drawableTop">@drawable/ic_contact_selector</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <!-- 发现按钮 -->
+    <style name="FindButton">
+        <item name="android:textColor">@drawable/text_color_selector</item>
+        <item name="android:drawableTop">@drawable/ic_find_selector</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <!-- 我按钮 -->
+    <style name="MeButton">
+        <item name="android:textColor">@drawable/text_color_selector</item>
+        <item name="android:drawableTop">@drawable/ic_me_selector</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:background">@null</item>
+    </style>
+
+</resources>
